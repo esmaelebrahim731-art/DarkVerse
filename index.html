@@ -3,185 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="DarkVerse — cinematic creator portfolio for video editing, AI visuals and dark storytelling.">
-  <meta name="theme-color" content="#070707">
-  <title>DarkVerse — Cinematic Creator</title>
+  <meta name="description" content="DarkVerse — Cinematic Creator Portfolio">
+  <title>DarkVerse | Cinematic Creator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="noise"></div>
 
-  <header class="navbar">
+  <header class="nav">
     <a class="logo" href="#home">DARK<span>VERSE</span></a>
-    <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
-    <nav class="nav-links">
-      <a href="#home">Home</a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav class="links">
       <a href="#about">About</a>
       <a href="#work">Work</a>
-      <a href="#skills">Skills</a>
+      <a href="#process">Process</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
-    <section id="home" class="hero">
-      <div class="hero-glow glow-one"></div>
-      <div class="hero-glow glow-two"></div>
-      <div class="hero-content reveal">
-        <p class="eyebrow">CINEMATIC CREATOR • AI • STORYTELLING</p>
-        <h1>Turn ideas into<br><span>dark visuals.</span></h1>
-        <p class="hero-text">
-          I create cinematic edits, AI visuals and mystery-driven digital content
-          designed to make people stop scrolling.
-        </p>
-        <div class="hero-buttons">
-          <a class="btn primary" href="#work">Explore My Work <span>↗</span></a>
-          <a class="btn ghost" href="#contact">Let's Connect</a>
-        </div>
-        <div class="hero-stats">
-          <div><strong>01</strong><span>Creative Direction</span></div>
-          <div><strong>02</strong><span>Video Editing</span></div>
-          <div><strong>03</strong><span>AI Visuals</span></div>
-        </div>
-      </div>
-      <div class="scroll-cue">SCROLL <span>↓</span></div>
+    <section class="hero" id="home">
+      <p class="eyebrow">CINEMATIC CREATOR • DIGITAL STORYTELLING</p>
+      <h1>Turn ideas<br><span>into dark visuals.</span></h1>
+      <p class="hero-text">Video editing, AI visuals and digital stories built with a cinematic point of view.</p>
+      <a class="button" href="#work">Explore my work <span>↓</span></a>
     </section>
 
-    <section id="about" class="section about">
-      <div class="section-label reveal">01 / ABOUT</div>
-      <div class="about-grid">
-        <div class="reveal">
-          <h2>I make content<br>with a <span>point of view.</span></h2>
-        </div>
-        <div class="about-copy reveal">
-          <p>
-            DarkVerse is a creative space built around cinematic storytelling,
-            sharp editing and experimental digital visuals.
-          </p>
-          <p>
-            From short-form videos to mystery stories and AI-generated concepts,
-            every project starts with one goal: <b>make it memorable.</b>
-          </p>
-        </div>
-      </div>
+    <section class="section" id="about">
+      <p class="section-no">01 / ABOUT</p>
+      <h2>I make content<br><span>with a point of view.</span></h2>
+      <p class="copy">I create cinematic edits, AI-powered visuals and dark storytelling designed to stop the scroll and leave an impression.</p>
     </section>
 
-    <section id="work" class="section work">
-      <div class="section-label reveal">02 / SELECTED WORK</div>
-      <div class="section-heading reveal">
-        <h2>Projects that <span>hit different.</span></h2>
-        <p>Click a project to see what DarkVerse brings to the screen.</p>
-      </div>
-
-      <div class="project-grid">
-        <article class="project-card large reveal" data-title="Cinematic Video Editing"
-                 data-description="High-impact edits built around rhythm, transitions, sound design, atmosphere and story. Perfect for YouTube Shorts, TikTok and cinematic social content."
-                 data-tags="CapCut,Color Grading,Sound Design">
-          <div class="project-number">01</div>
-          <div class="project-icon">◈</div>
-          <div class="project-info">
-            <p>VIDEO / EDITING</p>
-            <h3>Cinematic<br>Edits</h3>
-            <span>Explore project →</span>
-          </div>
+    <section class="section" id="work">
+      <p class="section-no">02 / SELECTED WORK</p>
+      <h2>Projects that<br><span>hit different.</span></h2>
+      <div class="grid">
+        <article class="card">
+          <span>01</span><h3>VIDEO EDITING</h3><p>Cinematic edits, transitions and visual storytelling.</p>
         </article>
-
-        <article class="project-card reveal" data-title="AI Visuals"
-                 data-description="Concept-driven AI visuals that turn simple ideas into striking scenes, characters and cinematic worlds."
-                 data-tags="AI,Visual Design,Concept Art">
-          <div class="project-number">02</div>
-          <div class="project-icon">✦</div>
-          <div class="project-info">
-            <p>AI / VISUALS</p>
-            <h3>AI<br>Worlds</h3>
-            <span>Explore project →</span>
-          </div>
+        <article class="card">
+          <span>02</span><h3>AI VISUALS</h3><p>AI-generated concepts, scenes and creative experiments.</p>
         </article>
-
-        <article class="project-card reveal" data-title="Dark Stories"
-                 data-description="Mystery, unexplained events and dark stories presented with strong hooks, pacing and cinematic narration."
-                 data-tags="YouTube,Storytelling,Research">
-          <div class="project-number">03</div>
-          <div class="project-icon">◐</div>
-          <div class="project-info">
-            <p>YOUTUBE / STORY</p>
-            <h3>Dark<br>Stories</h3>
-            <span>Explore project →</span>
-          </div>
+        <article class="card">
+          <span>03</span><h3>DARK STORIES</h3><p>Mystery, horror and storytelling content with atmosphere.</p>
         </article>
-
-        <article class="project-card wide reveal" data-title="Short-Form Content"
-                 data-description="Fast, attention-focused vertical content with hooks, captions, motion and music designed for mobile audiences."
-                 data-tags="Shorts,TikTok,Motion">
-          <div class="project-number">04</div>
-          <div class="project-icon">//</div>
-          <div class="project-info">
-            <p>SOCIAL / SHORTS</p>
-            <h3>Short-Form<br>Content</h3>
-            <span>Explore project →</span>
-          </div>
+        <article class="card">
+          <span>04</span><h3>SHORT-FORM</h3><p>Scroll-stopping content for YouTube Shorts, TikTok and Reels.</p>
         </article>
       </div>
     </section>
 
-    <section id="skills" class="section skills">
-      <div class="section-label reveal">03 / SKILLS</div>
-      <div class="skills-grid">
-        <div class="skill-intro reveal">
-          <h2>Built for the<br><span>attention economy.</span></h2>
-          <p>I combine creative direction with practical editing skills to turn raw ideas into content people want to watch.</p>
-        </div>
-        <div class="skill-list reveal">
-          <div class="skill"><span>Video Editing</span><b>90%</b><i><em style="width:90%"></em></i></div>
-          <div class="skill"><span>Storytelling</span><b>88%</b><i><em style="width:88%"></em></i></div>
-          <div class="skill"><span>AI Visuals</span><b>85%</b><i><em style="width:85%"></em></i></div>
-          <div class="skill"><span>Motion & Effects</span><b>82%</b><i><em style="width:82%"></em></i></div>
-        </div>
+    <section class="section split" id="process">
+      <div>
+        <p class="section-no">03 / PROCESS</p>
+        <h2>Built for the<br><span>attention economy.</span></h2>
+      </div>
+      <div class="steps">
+        <div><b>01</b><h3>IDEA</h3><p>Find the hook and define the story.</p></div>
+        <div><b>02</b><h3>BUILD</h3><p>Edit, design and shape the visual identity.</p></div>
+        <div><b>03</b><h3>POLISH</h3><p>Sound, color, motion and final details.</p></div>
+        <div><b>04</b><h3>RELEASE</h3><p>Prepare the final piece for the audience.</p></div>
       </div>
     </section>
 
-    <section class="section process">
-      <div class="section-label reveal">04 / PROCESS</div>
-      <div class="process-grid">
-        <div class="process-card reveal"><span>01</span><h3>Idea</h3><p>Find the hook and define the story.</p></div>
-        <div class="process-card reveal"><span>02</span><h3>Build</h3><p>Edit, design and shape the visual identity.</p></div>
-        <div class="process-card reveal"><span>03</span><h3>Polish</h3><p>Sound, color, motion and final details.</p></div>
-        <div class="process-card reveal"><span>04</span><h3>Release</h3><p>Export for the platform and audience.</p></div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <div class="contact-box reveal">
-        <p class="eyebrow">05 / CONTACT</p>
-        <h2>Have an idea?<br><span>Let's make it real.</span></h2>
-        <p class="contact-text">For collaborations, editing projects or creative ideas, reach out through your preferred platform.</p>
-        <div class="socials">
-          <a href="#" aria-label="YouTube">YouTube ↗</a>
-          <a href="#" aria-label="TikTok">TikTok ↗</a>
-          <a href="#" aria-label="Instagram">Instagram ↗</a>
-        </div>
-        <p class="edit-note">Tip: replace the three # links in index.html with your real social links.</p>
+    <section class="contact" id="contact">
+      <p class="section-no">04 / CONTACT</p>
+      <h2>Have an idea?<br><span>Let's make it real.</span></h2>
+      <p>For collaborations, creative projects and content work.</p>
+      <div class="socials">
+        <a href="#" aria-label="YouTube">YouTube ↗</a>
+        <a href="#" aria-label="TikTok">TikTok ↗</a>
+        <a href="#" aria-label="Instagram">Instagram ↗</a>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="footer-logo">DARKVERSE</div>
-    <p>© <span id="year"></span> DarkVerse. All rights reserved.</p>
-    <a href="#home">Back to top ↑</a>
-  </footer>
-
-  <div class="modal" aria-hidden="true">
-    <div class="modal-backdrop"></div>
-    <div class="modal-box">
-      <button class="modal-close" aria-label="Close">×</button>
-      <p class="eyebrow">PROJECT</p>
-      <h2 id="modal-title"></h2>
-      <p id="modal-description"></p>
-      <div id="modal-tags" class="modal-tags"></div>
-    </div>
-  </div>
-
+  <footer>© <span id="year"></span> DarkVerse. All rights reserved.</footer>
   <script src="script.js"></script>
 </body>
 </html>
